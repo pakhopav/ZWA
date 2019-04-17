@@ -1,0 +1,371 @@
+li{
+
+width: 180px;
+
+}
+nav{
+    height: 10vh !important;
+}
+li:first-child{
+
+margin-left: 50px;
+
+}
+
+/*#Forum{
+
+position: relative;
+
+right: 0;
+
+}*/
+
+body{
+
+background-image: url("pics/pm-logo.png");
+
+}
+
+#row-with-mt{
+
+margin-top: 100px;
+
+}
+
+.r1{
+
+background: #F4F4F4;
+
+}
+
+.names{
+
+font-size: 1.5rem;
+
+}
+
+#menu{
+
+top:70px;
+
+}
+
+#menu a{
+
+background: #F4F4F4;
+
+}
+
+#menu a:hover {background:#DDDDDD !important; }
+
+.contentPM{
+
+padding: 0;
+
+}
+
+#contentHome{
+
+display: none;
+
+}
+
+.card-body{
+
+background: #DBDBDB;
+
+}
+
+.dropdown:hover>.dropdown-menu{
+
+display: block;
+
+}
+
+.hov:hover .card-body{
+
+background: #C6C6C6;
+
+}
+
+.hov:hover img{
+
+filter: brightness(80%);
+
+-moz-filter: brightness(80%);
+
+-webkit-filter: brightness(80%);
+
+}
+
+
+
+#mus1.horizTranslate {
+
+-webkit-transition: 0.8s;
+
+-moz-transition: 0.8s;
+
+-ms-transition: 0.8s;
+
+-o-transition: 0.8s;
+
+transition: 0.8s;
+
+margin-left: 32vw !important;
+
+}
+
+#mus3.horizTranslate {
+
+-webkit-transition: 0.8s;
+
+-moz-transition: 0.8s;
+
+-ms-transition: 0.8s;
+
+-o-transition: 0.8s;
+
+transition: 0.8s;
+
+margin-left: -32vw !important;
+}
+
+.mus{
+    position: absolute;
+    float: left;
+    width: 16vw;
+}
+#mus1{
+    left: 10vw;
+}
+#mus2{
+    left: 42vw;
+}
+#mus3{
+    left: 74vw;
+}
+
+.prev img{
+    width: 1.8vw;
+}
+.next img{
+    width: 1.8vw;
+}
+.play img{
+    width: 2.6vw;
+}
+.play, .prev, .next{
+    float: left;
+}
+
+.card-body, .Media, .Buttons{
+    padding: 0;
+}
+.play{
+    position: absolute;
+    left: 6.7vw;
+}
+.prev{
+    position: absolute;
+    left: 3vw;
+}.next{
+    position: absolute;
+    left: 11.2vw;
+}
+.Bar{
+    padding: 0;
+    margin-top: 3.5vw;
+    position: absolute;
+    display: block;
+    width: 14vw;
+    left: 1vw;
+    z-index: 90;
+    background: #A5A5A5;
+    height: 5px;
+    border-radius: 4px;
+}
+.SongName {
+    text-align: center;
+    font-size: 1.3em;
+}
+.AlbomName p{
+    text-align: center;
+    font-size: 1.2em;
+}
+.Media{
+    display: none;
+}
+#Back{
+    top:0;
+    display: none;
+    width: 100px;
+    height: 100px;
+
+    float: left;
+}
+#Back img{
+    width: 100px;
+    height: 100px;
+}
+#Back:hover img {
+    filter: opacity(70%);
+     -moz-filter: opacity(70%);
+
+     -webkit-filter: opacity(70%);
+}
+.Fill{
+    /*margin-top: 3.5vw;*/
+    position: absolute;
+    display: block;
+    width: 0%;
+    margin:0;
+
+    background: #FF0016;
+    height: 5px;
+    z-index: 99;
+    border-radius: 4px;
+}
+
+.play:hover img{
+     filter: opacity(80%);
+     -moz-filter: opacity(80%);
+
+    -webkit-filter: opacity(80%);
+
+}
+.prev:hover img{
+     filter: opacity(80%);
+     -moz-filter: opacity(80%);
+
+     -webkit-filter: opacity(80%);
+
+}
+.next:hover img{
+     filter: opacity(80%);
+     -moz-filter: opacity(80%);
+
+     -webkit-filter: opacity(80%);
+
+}
+
+.servB{
+    color: #FF7500;
+}
+
+.newsItem{
+    width: 100%;
+    background: rgba(219, 219, 219, 0.6);
+    /*filter: opacity(60%);*/
+     /*-moz-filter: opacity(60%);*/
+#CANCEL
+     /*-webkit-filter: opacity(60%);*/
+    display: block;
+    height: 23vw;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 15px grey;
+    border-radius: 10px;
+
+
+
+
+}
+.newsItem h4{
+    float: left;
+}
+.newsItem video{
+    margin-left: 20px;
+    width: 20vw;
+}
+.newsItem iframe{
+    margin-left: 20px;
+    width: 20vw;
+    height: 20vw;
+}
+.newsItem img{
+    margin-left: 20px;
+    width: 20vw;
+    height: 20vw;
+}
+.newsItem small{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.Listen{
+    text-align: center;
+}
+#DayNight{
+
+    position: fixed;
+  bottom: 4px;
+  right: 4px;
+  display: none;
+}
+.error{
+
+
+
+
+
+    margin-top:  44px;
+
+    color: #FE234F;
+    font-size: 1.3em;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+label{
+    font-size: 1.5em;
+
+}
+#result{
+    display: block;
+}
+.Band img{
+    width: 300px;
+    height: 300px;
+}
+#Forum{
+    height: 90vh;
+
+}
+#ForumForm{
+    position: absolute;
+    position: fixed;
+    bottom: 50px;
+}
+#forum{
+
+    display: none;
+}
+#chatBlock{
+
+    background: rgba(219,219,219, 0.4);
+    border-style: outset;
+    margin-top: 3vh;
+    height: 75vh;
+    overflow-y: scroll;
+
+}
+#chatForm{
+    width: 100%;
+    height: 10vh;
+
+    background: rgba(219,219,219, 0.4);
+
+}
+#chatForm form{
+    margin-left: 20px;
+}
+#Message{
+    width: 25vw;
+    height: 5vh;
+
+    border-radius: 5px;
+}
